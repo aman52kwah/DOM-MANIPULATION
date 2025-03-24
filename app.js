@@ -195,11 +195,31 @@
 //    }
 // )
 
- //used the getAttribute to simply the codes above through the parent (ul tag) id
-document.querySelector('#sports').addEventListener('click',
+ //used the getAttribute to simplfy the codes above through the parent (ul tag) id
+// document.querySelector('#sports').addEventListener('click',
    
-   function(e){
-    console.log(e.target.getAttribute('id')+ ' is clicked');
-   
-   }
-)
+   // create the event function via getAttribute by the child node id
+   // function(e){
+   //  console.log(e.target.getAttribute('id')+ ' is clicked');
+      
+   //  //assigned a constance variable target to evenTarget
+   //  const target = e.target;
+      
+    
+    // check if target matches the list items then change the backgoundcolor
+//     if (target.matches('li')) {
+//       target.style.backgroundColor = 'lightgrey';
+//     }
+
+//    }
+// )
+
+
+   // create a new element to list
+   // const sports = document.querySelector('#sports');
+   // const newSports = document.createElement('li');
+
+   // newSports.innerText = 'rugby';
+   // newSports.setAttribute('id','rugby');
+
+   // sports.appendChild(newSports);
